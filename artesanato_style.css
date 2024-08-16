@@ -1,0 +1,119 @@
+/* https://fonts.google.com/selection */
+
+
+@import url('https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,400..900;1,400..900&display=swap');
+
+@font-face {
+    font-family: 'Alegreya', 'Times New Roman', Times, serif;
+    src: url('https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,400..900;1,400..900&display=swap');
+}
+body{
+    background-color: #dadad9;
+    font-family: 'Alegreya';
+}
+.logo{
+    margin-top: 5px;
+}
+p{
+    text-align: justify;
+}
+h2{
+    color: #80d0ef;
+    background-color: #584d3d;
+    border-color: #6b4b3e;
+    border-radius: 5px;
+    text-align: center;
+}
+.categtit{
+    color: #80d0ef;
+    background-color: #6b4b3e;
+    border-bottom: 4px dotted #ede6e3;   
+}
+h3{
+    color: #80d0ef;
+    background-color: #584d3d;
+    text-align: center;
+    border-color: #ede6e3;
+}
+.TT1{
+    font-size: 6em;
+    text-align: center;
+    color: #6b4b3e;
+}
+.princ{
+    display: flex;
+}
+.men1{
+    border-radius: 5px;
+    
+}
+.ul1{
+    background-color: #584d3d;
+    border-radius: 5px;
+    padding: 30px;
+    color: #80d0ef;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.item{
+    list-style-type: none;
+}
+.rodp{
+    text-decoration: none;
+    color: #80d0ef;
+    font-size: larger;
+    text-align: center;
+    background-color: #584d3d;
+    border-radius: 5px;
+    padding: 5px;
+    display: inline-block;
+    width: 100%;
+}
+.avolt{
+    text-decoration: none;
+    color: #80d0ef;
+    font-size: larger;
+}
+a{
+    text-decoration: none;
+    color: #80d0ef;
+}
+.li1{
+    padding: 5px;
+    font-size: large;
+}
+.clear{
+    clear: both;
+}
+figure{
+    float: left;
+    margin: 10px;
+}
+figcaption{
+    text-align: center;
+    width: 300px;
+    
+}
+.categ{
+    float: right;
+    margin: 40px;
+    color: #80d0ef;
+    background-color: #6b4b3e;
+    border-left: #584d3d;
+    border-top: #584d3d;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    min-width: 200px;
+    flex-shrink: 0;
+}
+.Pst{
+    margin-top: 5%;
+    display: flex;
+}
+.Pst2{
+    margin-top: 5%;
+    display: flex;
+}
