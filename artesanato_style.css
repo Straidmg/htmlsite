@@ -7,16 +7,59 @@
     font-family: 'Alegreya', 'Times New Roman', Times, serif;
     src: url('https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,400..900;1,400..900&display=swap');
 }
+@media screen and (max-width: 600px) {
+    *{
+        max-width: 600px;
+    }
+    body{
+        max-width: 600px;
+        text-align: justify;
+    }
+    div{
+        align-content: space-between;
+    }
+    p{
+        text-align: justify;
+    }
+}
+/* @media screen and (min-width: 600px) {
+    
+} */
+
+:root{
+    --skyblue:#80d0ef
+}
 body{
     background-color: #dadad9;
     font-family: 'Alegreya';
+    padding: 5px;
+    max-width: fit-content;
+}
+.TT1{
+    font-size: 6em;
+    text-align: center;
+    color: #6b4b3e;
 }
 .logo{
     margin-top: 5px;
+    background-image: linear-gradient(45deg, #dadad9, var(--skyblue), #dadad9);
 }
 p{
     text-align: justify;
+    word-wrap: normal;
+    
 }
+p::first-letter{
+    font-size: 4em;
+}
+.postshov:hover{
+    width: 400px;
+    height: 300px;
+    background-color: #6b4b3e;
+    box-shadow: 2px 2px #000000;
+    
+}
+
 h2{
     color: #80d0ef;
     background-color: #584d3d;
@@ -29,17 +72,18 @@ h2{
     background-color: #6b4b3e;
     border-bottom: 4px dotted #ede6e3;   
 }
+.categi:hover{
+    color: #ede6e3;
+    font-size: medium;
+}
 h3{
     color: #80d0ef;
     background-color: #584d3d;
     text-align: center;
     border-color: #ede6e3;
+    border-width: 5px;
 }
-.TT1{
-    font-size: 6em;
-    text-align: center;
-    color: #6b4b3e;
-}
+
 .princ{
     display: flex;
 }
@@ -59,7 +103,8 @@ h3{
 .item{
     list-style-type: none;
 }
-.rodp{
+
+.avolt{
     text-decoration: none;
     color: #80d0ef;
     font-size: larger;
@@ -69,11 +114,6 @@ h3{
     padding: 5px;
     display: inline-block;
     width: 100%;
-}
-.avolt{
-    text-decoration: none;
-    color: #80d0ef;
-    font-size: larger;
 }
 a{
     text-decoration: none;
@@ -88,20 +128,20 @@ a{
 }
 figure{
     float: left;
-    margin: 10px;
+    display: grid;
+    padding: auto;
+    
 }
 figcaption{
     text-align: center;
     width: 300px;
-    
+    background-color: #dadad9;
 }
 .categ{
     float: right;
     margin: 40px;
     color: #80d0ef;
     background-color: #6b4b3e;
-    border-left: #584d3d;
-    border-top: #584d3d;
     border-radius: 5px;
     display: flex;
     flex-direction: column;
